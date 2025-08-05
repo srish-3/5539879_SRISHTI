@@ -4,7 +4,7 @@
 
 int* matchingStrings(int strings_count, char strings[][21], int queries_count, char queries[][21], int* result_count) {
     *result_count = queries_count;
-    int* result = malloc(queries_count * sizeof(int));  // Corrected memory allocation
+    int* result = malloc(queries_count * sizeof(int)); 
 
     for (int i = 0; i < queries_count; i++) {
         int count = 0;
