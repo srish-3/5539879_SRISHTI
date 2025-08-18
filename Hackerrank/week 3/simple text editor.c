@@ -1,3 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+#define MAX_LEN 1000000
+#define MAX_HISTORY 100000
+
 char* text;
 char* history[MAX_HISTORY];
 int history_top = -1;

@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
 #define MAX 100000
 
 int stack1[MAX], stack2[MAX];

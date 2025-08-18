@@ -1,4 +1,22 @@
- char** copyGrid(char** grid, int rows, int cols) {
+#include <assert.h>
+#include <ctype.h>
+#include <limits.h>
+#include <math.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+char* readline();
+char* ltrim(char*);
+char* rtrim(char*);
+char** split_string(char*);
+
+int parse_int(char*);
+
+char** copyGrid(char** grid, int rows, int cols) {
     char** newGrid = malloc(rows * sizeof(char*));
     for (int i = 0; i < rows; i++) {
         newGrid[i] = malloc((cols + 1) * sizeof(char));
