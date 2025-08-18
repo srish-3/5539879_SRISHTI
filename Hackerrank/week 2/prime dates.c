@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
 int isLeap(int year) {
     return (year % 400 == 0 || (year % 100 != 0 && year % 4 == 0));
 }
@@ -20,25 +25,7 @@ int isLucky(int d, int m, int y) {
 }
 
 
-int findLuckyDates(int d1, int m1, int y1, int d2, int m2, int y2) {
-    int count = 0;
 
-    while (y1 < y2 || (y1 == y2 && m1 < m2) || (y1 == y2 && m1 == m2 && d1 <= d2)) {
-        if (isLucky(d1, m1, y1)) count++;
-
-        d1++;
-        if (d1 > getDays(m1, y1)) {
-            d1 = 1;
-            m1++;
-            if (m1 > 12) {
-                m1 = 1;
-                y1++;
-            }
-        }
-    }
-
-    return count;
-}
 
 int main() {
     int d1, m1, y1;
