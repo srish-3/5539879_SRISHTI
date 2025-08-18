@@ -1,0 +1,55 @@
+1.git diff
+
+2. git commit -a -m "GitHub file uploaded"
+
+3. git status
+
+4. git add "C:\Users\Srishti\OneDrive\Documents\githubsrishti"
+
+5. git checkout-b branch1
+
+6. git checkout branch1
+
+7. git commit --amend
+
+8. git push origin branch1 
+
+9. git pull
+
+10. git rebase -i/--continue/-abort/--skip
+
+11.git clone
+
+12.git merge
+
+13. git log -stat 
+
+14. git stash
+
+15. git stash pop
+
+16. git show commit_id
+
+17.git reset HEAD~1
+
+18. git format-patch-1 commit_id
+
+19. git apply patch_githubsrishti
+
+20. git branch -D branch1
+
+21. git reset
+
+22. git revert
+
+23. git cherry-pick commit_id 
+
+24. git branch
+
+25. git reset --hard
+
+26. git add .
+
+27. git commit -m "Agile certificate added successfully"
+
+
