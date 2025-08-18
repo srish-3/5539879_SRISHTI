@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
 #define MAX_SIZE 100005
 
 int heap[MAX_SIZE];
